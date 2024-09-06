@@ -48,7 +48,7 @@ const ButtonContainer = ({ onButtonClick }) => {
       </div>
       <div className="row mt-2">
         <div className="col-3">
-          <Button value="c" onClick={onButtonClick} />
+          <Button value="C" onClick={onButtonClick} />
         </div>
         <div className="col-3">
           <Button value="0" onClick={onButtonClick} />

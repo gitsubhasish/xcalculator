@@ -7,7 +7,7 @@ const App = () => {
   const [result, setResult] = useState("");
 
   const handleButtonClick = (value) => {
-    if (value === "c") {
+    if (value === "C") {
       setInput("");
       setResult("");
     } else if (value === "=") {
