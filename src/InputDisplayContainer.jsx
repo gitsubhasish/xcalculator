@@ -6,6 +6,7 @@ const InputDisplayContainer = ({ input, result }) => {
       style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
     >
       <input
+        type="text"
         value={input}
         style={{ fontSize: 24, width: 250, textAlign: "right" }}
         readOnly
